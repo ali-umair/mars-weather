@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
 
     <script src="./swig.min.js"></script>
     <script src="./script.js"></script>
 
     <script type='text/template' id="template">
         <h1>AV of mars right now: {{data['1081'].AT.av}}</h1>
+        <p>Season: {{data['1081'].Northern_season}}</p>
     </script>
+
+    <title>Mars Weather</title>
 </head>
 
 <body>
