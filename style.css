@@ -1,0 +1,11 @@
+h1 {
+  color: red;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+h1:hover {
+  color: aqua;
+  opacity: 0.2;
+  transform: translateX(20px);
+}
